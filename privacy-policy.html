@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Ritualix</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            color: white;
+            margin-bottom: 40px;
+        }
+        
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .back-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+        
+        .back-button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .content {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        .effective-date {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .section:last-child {
+            border-bottom: none;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .section-number {
+            background: #667eea;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        
+        .section p {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .highlight-box {
+            background: #e8f5e8;
+            border-left: 4px solid #4caf50;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .highlight-box h3 {
+            color: #2d5a2d;
+            margin-bottom: 10px;
+        }
+        
+        .privacy-points {
+            list-style: none;
+            margin: 20px 0;
+            padding: 0;
+        }
+        
+        .privacy-points li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 1.1em;
+        }
+        
+        .privacy-points li::before {
+            content: "🔒";
+            position: absolute;
+            left: 0;
+            top: 10px;
+        }
+        
+        .contact-info {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .contact-info h3 {
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+            transition: border-color 0.3s ease;
+        }
+        
+        .contact-info a:hover {
+            border-color: white;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: rgba(255, 255, 255, 0.8);
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .footer p {
+            margin-bottom: 10px;
+        }
+        
+        .footer a {
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer a:hover {
+            color: white;
+        }
+        
+        .icon {
+            font-size: 1.2em;
+            margin-right: 5px;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.2em;
+            }
+            
+            .content {
+                padding: 25px;
+            }
+            
+            .section h2 {
+                font-size: 1.5em;
+            }
+            
+            .section-number {
+                width: 25px;
+                height: 25px;
+                font-size: 0.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="index.html" class="back-button">← Back to Home</a>
+            <h1>Privacy Policy</h1>
+            <p>Your privacy is our priority</p>
+        </div>
+        
+        <div class="content">
+            <div class="effective-date">
+                <span class="icon">📅</span>
+                Effective Date: July 18, 2025
+            </div>
+            
+            <p style="font-size: 1.2em; text-align: center; margin-bottom: 30px; color: #666;">
+                Ritualix ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy describes how your information is collected, used, and disclosed when you use the Ritualix mobile application (the "App").
+            </p>
+            
+            <div class="section">
+                <h2>
+                    <span class="section-number">1</span>
+                    Information We Do Not Collect
+                </h2>
+                <div class="highlight-box">
+                    <h3>🛡️ Zero Data Collection Policy</h3>
+                    <p>We value your privacy above all else. Ritualix operates on a strict zero data collection policy.</p>
+                </div>
+                <p>Ritualix does not collect, store, or share any personal data or user-generated content. Specifically:</p>
+                <ul class="privacy-points">
+                    <li>No account registration is required</li>
+                    <li>No data is transmitted to external servers</li>
+                    <li>No location, contact, or calendar data is accessed</li>
+                    <li>No analytics or tracking tools are used</li>
+                </ul>
+                <p><strong>All your data remains on your device and is never shared with anyone.</strong></p>
+            </div>
+            
+            <div class="section">
+                <h2>
+                    <span class="section-number">2</span>
+                    Third-party Services
+                </h2>
+                <p>Ritualix does not integrate with any third-party services (such as analytics providers or cloud backups) that may collect or process your data. We maintain complete independence from external data processors.</p>
+            </div>
+            
+            <div class="section">
+                <h2>
+                    <span class="section-number">3</span>
+                    Data Storage
+                </h2>
+                <p>All data created and managed in Ritualix (e.g., your habits, check-in history, personal goals) is stored locally on your device using secure Core Data storage.</p>
+                <div class="highlight-box">
+                    <h3>⚠️ Important Note</h3>
+                    <p>Deleting the app will remove all stored data permanently. We recommend backing up your device regularly through iTunes or iCloud if you want to preserve your habit tracking history.</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>
+                    <span class="section-number">4</span>
+                    Children's Privacy
+                </h2>
+                <p>Ritualix does not target children under the age of 13 and does not knowingly collect data from anyone under this age. If you believe we have mistakenly collected such data, please contact us immediately and we will take steps to remove it.</p>
+            </div>
+            
+            <div class="section">
+                <h2>
+                    <span class="section-number">5</span>
+                    Contact Us
+                </h2>
+                <p>If you have any questions or concerns about this Privacy Policy, feel free to contact us:</p>
+                <div class="contact-info">
+                    <h3>📧 Get in Touch</h3>
+                    <p>Email: <a href="mailto:298030287@qq.com">298030287@qq.com</a></p>
+                    <p>We typically respond within 24 hours</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>
+                    <span class="section-number">6</span>
+                    Changes to This Privacy Policy
+                </h2>
+                <p>We may update this policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. Changes will be posted on this page with an updated effective date.</p>
+                <p>We encourage you to review this Privacy Policy periodically to stay informed about how we are protecting your information.</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2025 Ritualix. All rights reserved.</p>
+            <p>Developed by <strong>JiaBao Dai</strong></p>
+            <p><a href="index.html">← Back to Home</a></p>
+        </div>
+    </div>
+</body>
+</html>
